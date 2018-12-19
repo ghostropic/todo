@@ -1,10 +1,11 @@
 {
-  "name": "todo-api",
+  "name": "todo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha server/**/*.test.js",
+    "start": "node api/server/server.js",
+    "test": "mocha api/server/**/*.test.js",
     "test-watch": "nodemon --exec 'npm test'"
   },
   "author": "",
